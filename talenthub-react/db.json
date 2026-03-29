@@ -1,0 +1,206 @@
+{
+  "talents": [
+    {
+      "id": "1",
+      "name": "Alex Thompson",
+      "role": "Professional EDM DJ",
+      "rating": 4.9,
+      "reviews": 128,
+      "hourlyRate": "$75/hr",
+      "skills": [
+        "DJ",
+        "MC/Host",
+        "Sound Engineer"
+      ],
+      "location": "Manhattan, NY",
+      "verified": true,
+      "image": "🎧",
+      "bio": "With over 8 years of experience in the nightlife scene, Alex has performed at top clubs across New York. Specializes in Deep House, Techno, and Progressive EDM. Known for energetic sets and professional MC services.",
+      "gallery": [
+        "🕺",
+        "✨",
+        "🔊"
+      ],
+      "pastEvents": [
+        {
+          "name": "Skyline Rooftop Party",
+          "date": "Jan 2026",
+          "result": "Sold Out"
+        },
+        {
+          "name": "Tech Gala NYC",
+          "date": "Dec 2025",
+          "result": "Excellent Feedback"
+        }
+      ],
+      "testimonials": [
+        {
+          "user": "Sarah K.",
+          "rating": 5,
+          "text": "Incredible energy! Kept the crowd dancing all night."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Sarah Jenkins",
+      "role": "Soul & Jazz Vocalist",
+      "rating": 5,
+      "reviews": 84,
+      "hourlyRate": "$120/hr",
+      "skills": [
+        "Singer",
+        "Jazz",
+        "Piano"
+      ],
+      "location": "Brooklyn, NY",
+      "verified": true,
+      "image": "🎤",
+      "bio": "A classically trained vocalist with a passion for jazz and soul. Sarah has a unique ability to set the mood for weddings, corporate dinners, and intimate lounge settings.",
+      "gallery": [
+        "🎹",
+        "🕯️",
+        "🌟"
+      ],
+      "pastEvents": [
+        {
+          "name": "Blue Note Residency",
+          "date": "Feb 2026",
+          "result": "Ongoing"
+        },
+        {
+          "name": "The Metropolitan Wedding",
+          "date": "Oct 2025",
+          "result": "Pure Class"
+        }
+      ],
+      "testimonials": [
+        {
+          "user": "Michael R.",
+          "rating": 5,
+          "text": "Her voice is like velvet. Absolutely stunning performance."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "title": "Summer Music Festival 2026",
+      "category": "Music & Concert",
+      "date": "June 15, 2026",
+      "location": "Central Park, New York, NY",
+      "organizer": "NYC Events Corp",
+      "skills": [
+        "Musician",
+        "Singer",
+        "DJ"
+      ],
+      "description": "Join the largest summer music celebration in New York! We are looking for versatile talents to perform across multiple stages.",
+      "requirements": [
+        "Own Equipment",
+        "Pro Sound Check",
+        "Stage Presence",
+        "Punctuality"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Corporate Gala Evening",
+      "category": "Corporate Event",
+      "date": "May 20, 2026",
+      "location": "Grand Hotel, Manhattan, NY",
+      "organizer": "Tech Innovations Inc",
+      "skills": [
+        "Musician",
+        "MC/Host"
+      ],
+      "description": "An elegant evening for industry leaders. We require a professional MC and background musicians.",
+      "requirements": [
+        "Formal Attire",
+        "Experience in Corporate",
+        "Public Speaking",
+        "Collaboration"
+      ]
+    }
+  ],
+  "myEvents": [
+    {
+      "id": "me-1",
+      "title": "Summer Music Festival 2026",
+      "date": "2026-06-15",
+      "location": "Central Park, NY",
+      "category": "Music & Concert",
+      "budget": 160,
+      "status": "Active",
+      "skills": [
+        "DJ",
+        "Musician"
+      ],
+      "hired": []
+    }
+  ],
+  "applications": [],
+  "requests": [
+    {
+      "id": "req-1",
+      "title": "VIP Lounge Performance",
+      "organizer": "LuxEvents NYC",
+      "budget": "$800",
+      "date": "April 28, 2026",
+      "message": "We loved your profile and would like to book you for a 2-hour solo set at our executive lounge opening.",
+      "skills": [
+        "Musician",
+        "MC/Host"
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "talentId": 1,
+      "type": "received",
+      "text": "Hello John! I saw your inquiry about the Tech Gala. How can I help?",
+      "time": "10:45 AM"
+    },
+    {
+      "id": 2,
+      "talentId": 1,
+      "type": "sent",
+      "text": "Hi Alex, yes! I'm interested in your services for our next event. Are you available on June 15th?",
+      "time": "10:46 AM"
+    },
+    {
+      "id": 3,
+      "talentId": 1,
+      "type": "received",
+      "text": "Let me check my calendar... Yes, for June 15th I have a slot available!",
+      "time": "10:47 AM"
+    },
+    {
+      "id": "c479",
+      "talentId": "2",
+      "type": "sent",
+      "text": "Looking forward to our event on Friday!",
+      "time": "08:17 AM"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "8ce2",
+      "talentId": "2",
+      "talentName": "Sarah Jenkins",
+      "userId": "1",
+      "status": "Pending",
+      "timestamp": "2026-03-29T02:46:59.267Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "john@example.com",
+      "name": "John Doe",
+      "role": "User"
+    }
+  ]
+}

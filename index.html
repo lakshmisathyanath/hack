@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event & Talent Connect | Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div class="login-card">
+            <!-- Logo Section -->
+            <div class="logo-container">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="white">
+                    <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z"/>
+                </svg>
+            </div>
+
+            <h1 class="welcome-title">Welcome Back</h1>
+            <p class="welcome-subtitle">Discover Local Talent</p>
+
+            <!-- Login Form -->
+            <form id="loginForm">
+                <div class="form-group">
+                    <label class="form-label" for="email">Email</label>
+                    <input type="email" id="email" class="form-input" placeholder="you@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="password">Password</label>
+                    <input type="password" id="password" class="form-input" placeholder="••••••••" required>
+                </div>
+
+                <!-- Role Switcher -->
+                <div class="form-group">
+                    <label class="form-label">I am a</label>
+                    <div class="role-switcher" id="roleSwitcher">
+                        <div class="role-indicator" id="roleIndicator"></div>
+                        <div class="role-option active" data-role="user" onclick="setRole('user')">User</div>
+                        <div class="role-option" data-role="talent" onclick="setRole('talent')">Talent</div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-primary">Get Started</button>
+            </form>
+
+            <p class="signup-text">
+                Don't have an account? <a href="#" class="signup-link" id="signupLink">Sign up</a>
+            </p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
